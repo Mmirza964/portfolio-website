@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  background: var(--btn-color);
+  height: 60px;
+  align-content: space-evenly;
+}
+
+.navLink {
+  color: var(--btn-text-color);
+  text-decoration: none;
+  padding: 8px;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbarBrand:hover,
+.navLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (width >= 800px) {
+  .navbar {
+    height: 80px;
+  }
+
+  .navLink {
+    padding: 15px;
+    font-size: 25px;
+  }
+}
