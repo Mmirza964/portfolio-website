@@ -37,7 +37,7 @@ function Projects() {
         />
         <ProjectCard
           src={portfolioWebsite}
-          link="#"
+          link="https://github.com/Mmirza964/portfolio-website"
           h3="Portfolio Website"
           p="Click Image for Code"
         />
