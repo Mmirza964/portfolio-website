@@ -5,6 +5,7 @@ import minesweeper from '../../assets/minesweeper.png';
 import lightEmAll from '../../assets/light-em-all.png';
 import robotDog from '../../assets/robot-dog.png';
 import portfolioWebsite from '../../assets/portfolio-website.png';
+import webChatApp from '../../assets/web-chat-icon.png';
 
 function Projects() {
   return (
@@ -39,6 +40,12 @@ function Projects() {
           src={portfolioWebsite}
           link="https://github.com/Mmirza964/portfolio-website"
           h3="Portfolio Website"
+          p="Click Image for Code"
+        />
+        <ProjectCard
+          src={webChatApp}
+          link="https://github.com/Mmirza964/web-chat-app"
+          h3="Web Chat App"
           p="Click Image for Code"
         />
       </div>
