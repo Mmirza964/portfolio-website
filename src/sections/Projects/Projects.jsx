@@ -6,6 +6,7 @@ import lightEmAll from '../../assets/light-em-all.png';
 import robotDog from '../../assets/robot-dog.png';
 import portfolioWebsite from '../../assets/portfolio-website.png';
 import webChatApp from '../../assets/web-chat-icon.png';
+import husky from '../../assets/husky-hacks.jpg';
 
 function Projects() {
   return (
@@ -31,9 +32,9 @@ function Projects() {
           p="Click Image for Code"
         />
         <ProjectCard
-          src={robotDog}
-          link="https://github.com/Mmirza964/robot-dog"
-          h3="Robot Dog"
+          src={husky}
+          link="https://github.com/Mmirza964/Husky-Hacks"
+          h3="Husky Hacks"
           p="Click Image for Code"
         />
         <ProjectCard
