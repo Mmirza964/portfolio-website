@@ -3,10 +3,10 @@ import styles from './ProjectsStyles.module.css';
 import stockGraph from '../../assets/stock-graph.png';
 import minesweeper from '../../assets/minesweeper.png';
 import lightEmAll from '../../assets/light-em-all.png';
-import robotDog from '../../assets/robot-dog.png';
 import portfolioWebsite from '../../assets/portfolio-website.png';
 import webChatApp from '../../assets/web-chat-icon.png';
 import husky from '../../assets/husky-hacks.jpg';
+import cookbook from '../../assets/cookbook.jpg';
 
 function Projects() {
   return (
@@ -47,6 +47,12 @@ function Projects() {
           src={webChatApp}
           link="https://github.com/Mmirza964/web-chat-app"
           h3="Web Chat App"
+          p="Click Image for Code"
+        />
+        <ProjectCard
+          src={cookbook}
+          link="https://github.com/Mmirza964/Recipe-Warehouse"
+          h3="Recipe Warehouse"
           p="Click Image for Code"
         />
       </div>
